@@ -1,0 +1,25 @@
+{
+  "name": "chat-app-node.js-socket.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/8brandon/chat-app-node.js-socket.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/8brandon/chat-app-node.js-socket.io/issues"
+  },
+  "homepage": "https://github.com/8brandon/chat-app-node.js-socket.io#readme",
+  "dependencies": {
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
