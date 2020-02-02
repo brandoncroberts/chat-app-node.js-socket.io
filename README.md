@@ -12,4 +12,4 @@ Intallation:
 
 4. and open multiple browser windows to test the chat functionality
 
-In further implementations I will host this on a server so it can be run on the web.
+In further implementations I will host this on a server such as Heroku or Netlify

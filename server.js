@@ -3,8 +3,6 @@ const io = require("socket.io")(3000);
 const users = {};
 
 io.on("connection", socket => {
-  console.log("new user", new Date());
-
   socket.on("new-user", user => {
     users[socket.id] = user;
     socket.broadcast.emit("user-connected", user);
